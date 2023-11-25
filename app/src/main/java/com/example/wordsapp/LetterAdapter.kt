@@ -63,6 +63,7 @@ class LetterAdapter :
         val item = list.get(position)
         holder.button.text = item.toString()
         holder.button.setOnClickListener {
+            val context = holder.itemView.context
 
         }
     }
