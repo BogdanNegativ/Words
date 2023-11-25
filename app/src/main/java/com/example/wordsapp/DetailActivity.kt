@@ -23,7 +23,9 @@ import com.example.wordsapp.databinding.ActivityDetailBinding
 
 
 class DetailActivity : AppCompatActivity() {
+    companion object {
 
+    }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
